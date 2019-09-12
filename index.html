@@ -3,17 +3,20 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
     <title>Doob</title>
-    <link href="./node_modules/@fortawesome/fontawesome-free/css/fontawesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,600&display=swap" rel="stylesheet">
     <link href="./css/style.css" rel="stylesheet">
+    <link href="./css/media.css" rel="stylesheet">
 </head>
 
 <body>
     <div class="wrapper">
         <header class="header-wrapper">
             <a href="#" class="logo"><img src="./img/Logo.png" alt="Doob logo"></a>
-
+            <input id="hamburger" type="checkbox" name="menu-hmbrg" style="display:none">
+            <label for="hamburger"><i class="fa fa-bars"></i></label>
             <ul class="header-menu">
                 <li><a href="#">Home.</a></li>
                 <li><a href="#">About us.</a></li>
@@ -23,10 +26,10 @@
             </ul>
             <div class="menu-buttons">
                 <button class="lng-switch-btn">EN
-                    <i class="fas fa-caret-down"></i>
+                    <i class="fa fa-caret-down"></i>
                 </button>
                 <button class="contact-btn">Contact Us
-                    <i class="fas fa-arrow-right"></i>
+                    <i class="fa fa-arrow-right"></i>
                 </button>
             </div>
         </header>
@@ -45,7 +48,6 @@
         </section>
 
         <section class="portfolio">
-            <!-- FIXME: <br> -->
             <h2 class="portfolio-header">See some of our</br>Creative work.</h2>
             <div class="portfolio-wrapper">
                 <div class="portfolio-item"></div>
@@ -69,7 +71,6 @@
                     <button class="active-btn">Send Message</button>
                 </div>
             </div>
-
         </section>
         <footer></footer>
     </div>

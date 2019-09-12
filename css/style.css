@@ -22,7 +22,7 @@ body i {
 }
 
 section {
-    height: 800px;
+    height: 700px;
     margin: 5vh 0;
 }
 
@@ -71,12 +71,18 @@ button {
     font: inherit;
     background: none;
 }
+#hamburger {
+    display: none;
+}
+.header-wrapper label {
+    display: none;
+}
 
 .contact-btn {
     color: #ff3946;
     padding: 15px 20px;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);    
-    border: 1px solid #c3d0d8b6;
+    border: 1px solid #c3d0d856;
 }
 
 .contact-btn:hover {
@@ -96,7 +102,6 @@ button {
 }
 
 .main-img {
-    /* width: 50%; */
     height: inherit;
 }
 
@@ -138,7 +143,7 @@ button {
 
 .portfolio-wrapper {
     width: inherit;
-    height: 500px;
+    height: 450px;
     display: grid;
     grid-template-columns: repeat(3, 31%);
     grid-template-rows: repeat(2, 45%);
@@ -176,9 +181,10 @@ button {
 }
 
 .contacts-form-wrapper {
+    width: inherit;
     display: grid;
     grid-gap: 20px;
-    grid-template-columns: repeat(2, 50%);
+    grid-template-columns: repeat(2, 48%);
 }
 
 .contacts-form-wrapper input {    

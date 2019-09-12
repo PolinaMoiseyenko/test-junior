@@ -1,0 +1,60 @@
+@media only screen and (max-width: 768px) {
+    .wrapper {
+        width: 90%;
+        margin: 0 auto;
+    }
+    section {
+        height: 500px;
+        margin: 5vh 0;
+    }
+    .logo {
+        position: inherit;
+        margin: auto 0;
+    }
+    .header-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-weight: 600;
+        margin: 30px 0;
+    }
+    .header-menu {
+        display: block;
+    }
+    .header-menu li {
+        display: none;
+    }
+    .contact-btn {
+        display: none;
+    }
+    .lng-switch-btn {
+        display: none;
+    }
+    .header-wrapper label {
+        color: #314584;
+    }
+    .main {
+        display: grid;
+        grid-template-columns: 57% 20%;
+        grid-gap: -40px;
+    }
+    .main-img {
+        position: absolute;
+        z-index: -1;
+        top: 150px;
+        left: 200px;
+        right: 0;
+        opacity: 0.5;
+    }
+    .main-header {
+        font-size: 40px;
+    }
+    .portfolio-wrapper {
+        width: inherit;
+        height: 300px;
+        display: grid;
+        grid-template-columns: repeat(3, 31%);
+        grid-template-rows: repeat(2, 45%);
+        grid-gap: 24px;
+    }
+}
