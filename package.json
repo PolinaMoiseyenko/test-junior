@@ -1,0 +1,22 @@
+{
+  "name": "test-junior",
+  "version": "1.0.0",
+  "description": "Test work for Junoir Front-end Developer position in UNL LTD Solutions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PolinaMoiseyenko/test-junior.git"
+  },
+  "author": "Polina Moiseyenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PolinaMoiseyenko/test-junior/issues"
+  },
+  "homepage": "https://github.com/PolinaMoiseyenko/test-junior#readme",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.10.2"
+  }
+}
